@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:icon="@drawable/undo" android:id="@+id/undo" android:title="Undo" app:showAsAction="always"/>
+    <item android:icon="@drawable/save" android:id="@+id/save" android:title="Save" app:showAsAction="always"/>
+    <item android:icon="@drawable/delete" android:id="@+id/clear" android:title="Clear" app:showAsAction="always"/>
+    <item android:icon="@drawable/add_user" android:id="@+id/adduser" android:title="add" app:showAsAction="always"/>
+    <item android:icon="@drawable/group" android:id="@+id/group" android:title="group" app:showAsAction="always"/>
+    <item android:icon="@drawable/dots" android:id="@+id/dots" android:title="dots" app:showAsAction="always">
+        <menu>
+            <item android:id="@+id/login" android:title="Login"/>
+            <item android:id="@+id/logout" android:title="Logout"/>
+            <item android:id="@+id/saved" android:title="Saved"/>
+            <item android:id="@+id/end" android:title="End Session"/>
+            <!--<item android:id="@+id/buy" android:title="Buy now"/>-->
+            <item android:id="@+id/aboutus" android:title="About"/>
+        </menu>
+    </item>
+</menu>

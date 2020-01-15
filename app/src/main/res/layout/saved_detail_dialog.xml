@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@drawable/slate_bg" android:layout_width="match_parent" android:layout_height="150dp">
+    <TextView android:textSize="24sp" android:textStyle="bold" android:textColor="#ffffff" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="Details"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8dp">
+            <TextView android:textColor="#ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Date Created:"/>
+            <TextView android:textColor="#ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="Participants:"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16dp">
+            <TextView android:textColor="#ffffff" android:id="@+id/txtdate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Date Created:"/>
+            <TextView android:textColor="#ffffff" android:id="@+id/txtparicipants" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="Participants:"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
